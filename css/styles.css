@@ -1,0 +1,16 @@
+body {
+  padding-left: 10%;
+  background: linear-gradient(blueviolet, purple);
+  color: white
+}
+.tickets {
+  width: 12%;
+  float: left;
+  background: linear-gradient(black,gray); 
+  color: yellow;
+}
+
+.column {
+  float: left;
+  width: 300px;
+}
