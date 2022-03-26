@@ -1,16 +1,28 @@
 body {
-  padding-left: 10%;
   background: linear-gradient(blueviolet, purple);
   color: white
 }
+
+.frilly {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
 .tickets {
-  width: 12%;
+  width: 300px;
   float: left;
   background: linear-gradient(black,gray); 
   color: yellow;
+  padding-left: 5%;
+  height: 1034px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
 }
 
 .column {
   float: left;
   width: 300px;
+  background: repeating-linear-gradient(blueviolet, darkorchid);
+  height: 1000px;
 }
