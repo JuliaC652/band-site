@@ -7,6 +7,10 @@ p{
   text-align: center;
 }
 
+img{
+  margin-bottom: 15px;
+  height: auto;
+}
 .frilly {
   text-align: center;
   font-weight: bolder;
@@ -15,7 +19,7 @@ p{
 }
 
 .tickets {
-  width: 200px;
+  width: 20%;
   float: left;
   background: linear-gradient(black,gray); 
   color: yellow;
@@ -24,12 +28,13 @@ p{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
   border: 13px solid yellow;
-  margin: 5px;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .column {
   float: left;
-  width: 300px;
+  width: 20%;
   height: 1000px;
   margin: 2%;
   margin-top: 10px;
